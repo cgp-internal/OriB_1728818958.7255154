@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+input {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.display-area {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.flashing {
+  animation: flash 1s infinite;
+}
+
+@keyframes flash {
+  0% {
+    background-color: #fff;
+  }
+  50% {
+    background-color: #ccc;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
